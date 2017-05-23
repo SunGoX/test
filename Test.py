@@ -4,10 +4,12 @@ mystring = "it's a test file.\n"
 
 print mystring
 
-x = [1,2,3,4,5]
-y = sum(x)
+fruits = {"apple": 1,"pear": 2,"banana": 3,"orange": 4,"mango": 5}
 
-print x,y,"asdwwdsa"
+for fruit in fruits:
+  print fruit," is ",fruits[fruit],".."
+
+print "asdwwdsa"
 
 
 
